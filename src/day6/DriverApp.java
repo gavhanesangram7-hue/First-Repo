@@ -5,8 +5,15 @@ public class DriverApp {
 		
 		
 		Student s1 = new Student();
-		s1.acceptStudent();
+		Student s2 = new Student();
+		Student s3 = new Student();
+		Student s4 = new Student();
+
+		//s1.acceptStudent();
 		s1.displayStudent();
+		s2.displayStudent();
+		s3.displayStudent();
+		s4.displayStudent();
 		
 	}
 

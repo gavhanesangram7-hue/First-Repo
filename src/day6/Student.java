@@ -6,6 +6,12 @@ public class Student {
     private int rollnumber;
     private String studentname;
     private double percentage;
+    
+    public Student() {                                        // This is a Constructor ,
+    	rollnumber=101;                                       // It is a special type of method whose name is same as the class name ,
+    	studentname= "Rohit";                                                    // It does not have any return type. 
+    	percentage = 50.0;
+    }
 
     public void acceptStudent() {
     	Scanner sc = new Scanner(System.in); 
