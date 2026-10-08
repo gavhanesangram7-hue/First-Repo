@@ -4,7 +4,11 @@ public class StringImmutability {
 	
 	public static void main(String[] args) {
 		
+<<<<<<< HEAD
 		String name = "Virat"; // it stores the virat in the refrence->name
+=======
+		String name = "Virat"; // it stores the "virat" in the refrence ->name
+>>>>>>> 5b8a16d (Java-OOP-Basics)
 		
 		System.out.println(name); // print the refrence.
 		
